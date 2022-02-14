@@ -1,0 +1,38 @@
+body {
+	background-image: url("computer-science-background.png");
+}
+h1 {
+	border:2px solid blue;
+	border-radius: 5px;
+
+}
+p { 
+	font-family: Helvetica, Geneva, Arial,
+		SunSans-Regular, sans-serif, Calibri;
+	color: #3c3c3c; 
+	
+}
+
+li { 
+	font-family: Helvetica, Geneva, Arial,
+		SunSans-Regular, sans-serif, Calibri;
+	color: #3c3c3c; 
+}
+
+h1 {
+	font-family: Helvetica, Geneva, Arial,
+		SunSans-Regular, sans-serif, Calibri;
+	color: #000000; 
+	 text-align: center;
+}
+
+h2 { 	
+	font-family: Helvetica, Geneva, Arial,
+		SunSans-Regular, sans-serif, Calibri;
+	color: #000000; 
+}
+
+a { font-family: Helvetica, Geneva, Arial,
+		SunSans-Regular, sans-serif, Calibri;
+	color: #3c3c3c; 
+}

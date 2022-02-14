@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chapter 7 Data Structures</title>
+	<link rel="stylesheet" href="Components Background.css">
+</head>
+<body>
+	<h1>Arrays,Tuples and records</h1>
+<hr>
+	<h2>1-Dimensional Arrays</h2>
+	<p>An array is defined as a finite, ordered set of elements of the same type, such as integer,
+	real or char. Finite means that there is a specific number of elements in the array. Ordered implies that there is 
+	a  first, second, third elements in the array.</p>
+<hr>
+	<h2>2-Dimensional Arrays</h2>
+	<p>An array can have two or more dimensions. A two-dimensional array can be visualised as a table, rather than a spreadsheet.</p>
+<hr>
+	<h2>Arrays of three Dimensions</h2>
+	<p> In a 3-dimensional array x, a particular element may be reffered to as e.g. x[4,6,3]. The first element would be reffered to as x[0,0,0].
+<hr>
+	<h2>Tuples</h2>
+	<p>A tuple is an ordered set of values, which consists of elements of any type such as strings, integers or real numbers, or even graphic images.
+	Unlike arrays, the elements dont have to be of the same type. However the tuple, like a string is immutable, meaning it cant be changed.</p>
+<hr>
+	<h2>Records</h2>
+	<p>Generally files consists of a number of records. A record contains a number of fileds, each holding one item of data.
+<hr>
+	<h2>Queues</h2>
+	<p>A queue is a FIFO (First-In-First-Out) data structure. New elements can be added to the end of a queue and elements may only retrieved from the front
+	of a queue. The sequence of data items in a queue is determined, therefore, by the order in which they are inserted.</p>
+	<p>Queues are used in a variety of applications</p>
+<ul>
+	<li>Characters typed at a keyboard are held in a queue in a keyboard buffer.</li>
+	<li>Output waiting to be printed is commonly stored in a queue on disk</li>
+</ul>
+<hr>
+	<h2>Dynamic vs Static Data Structures</h2>
+	<p>A dynamic data structure refers to a collection of data in memeory that has the ability to grow or shrink in size</p>
+	<p>A static data structure sucah as an array is fixed in size, and cannot increase in size or free up memory while the program is running</p>
+<hr>
+	<h2>A Circular Queue</h2>
+	<p>One way of overcoming the limitation of a static data structure such as an array is to implement the queu as a circular queue, so that when the array so that 
+	when the array fills up and the near pointer points to the last element of the array it will be made to the point to the first element, when the ext person joins the
+	queue, assuming this element is empty</p>
+<hr>	  
+	<h2>Links</h2>
+	<p>If your still unsure about the conetent covered watch a craig n dave video</p> 
+<ul>
+	<li><a href = "https://www.youtube.com/watch?v=b8s0-VLkVA0&list=PLCiOXwirraUClSdjZJ6YNwKXQDomG35kf">
+	Arrays, Tuples and Records</a></li>
+	<li><a href = "https://www.youtube.com/watch?v=K72XTSusEO0&list=PLCiOXwirraUClSdjZJ6YNwKXQDomG35kf&index=2">
+	Tuples Static vs Dynamic</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</body>

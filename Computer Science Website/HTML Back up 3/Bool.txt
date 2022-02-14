@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chapter 8 Boolean Algebra</title>
+	<link rel="stylesheet" href="Components Background.css">
+</head>
+<body>
+	<h1>Logic gates and Truth Tables</h1>
+<hr>
+	<h2>Simple Logic Gates and Truth Tables</h2>
+	<p>There are a number of different logic gates that are each designed to perform a different operation
+	in terms of output. We will look at NOT, AND, OR and XOR gates.</p>
+<hr>
+	<h2>NOT Gate</h2>
+	<p>The NOT gate is represented by the symboil below and inverts the input. The small circle denotes an inverted 
+	input.</p>
+<hr>
+	<h2>AND Gate Conjuction</h2>
+	<p>The truth table reflects the fundamental property of the AND gate: the output of A AND B is  1 
+	only if input A and input B are both 1.
+<hr>
+	<h2>OR Gate (Disjunction)</h2>
+<hr>
+	<h2>XOR Gate (Exclusive disjunction)</h2>
+	<p>The XOR stands for exclusive OR, meaning that the output will be true if one or other input 
+	is true, but not both.
+<hr>
+	<h2>Rules Of Boolean Algebra</h2>
+<ol>
+	<p>General Rules</p>
+
+	<li>X AND 0 = 0</li>
+	<li>X AND 1 =X</li>
+	<li>X AND X = X</li>
+	<li>X AND NOTX = 0</li>
+	<li>X OR 0 = X</li>
+	<li>X OR 1 = 1</li>
+	<li>X OR X = X</li>
+	<li>X OR NOTX = 1</li>
+
+	<p>Commulative Rules</p>
+
+	<li>X AND Y = Y AND X</li>
+	<li>X OR Y = Y OR X</li>
+
+	<p>Associative Rules</p>
+
+	<li>X AND (Y AND Z) = (X AND Y) AND Z</li>
+	<li>X OR (Y OR Z) = (X OR Y) OR Z</li>
+
+	<p>Distributive Rules</p>
+	
+	<li>X AND (Y OR Z) = (X AND Y) OR (X OR Z)</li>
+	<li>(X OR Y) OR (W OR Z) = (X AND W) OR (X AND Z) OR (Y AND W) OR (Y AND Z)</li>
+	
+	<p>Absorption Rules</p>
+	
+	<li>X OR (W AND Y) = X</li>
+	<li>X AND (X OR Y) = X</li>
+	
+	<p>Double Negation</p>
+	
+	<li>X = NOT NOTX</li>
+</ol>
+<hr>
+	<h2>Links</h2>
+	<p>If your still unsure about the conetent covered watch a craig n dave video</p> 
+<ul>
+	<li><a href = "https://www.youtube.com/watch?v=uTUV-VnKAdM&list=PLCiOXwirraUDCK07-o9dJTWMkLmFco1PA">
+	Boolean Algebra</a></li>
+	<li><a href = "https://www.youtube.com/watch?v=osI68WZz_CM&list=PLCiOXwirraUDCK07-o9dJTWMkLmFco1PA&index=6">
+	Logic Gates with Truth Tables</a></li>
+
+
+
+
+
+
+
+
+</body>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chapter 2 SystemSoftware</title>
+	<link rel="stylesheet" href="Components Background.css">
+</head>
+<body>
+	<h1> System Software</h1>
+<hr>
+	<h2>Key Words</h2>
+
+	<p>System Software - Is the software needed to run the computer's hardware and application programs.</p>
+
+	<p>Application Software - Can be categorised as general purpose, special purpose or custom written
+	(bespoke) software.</p>
+
+	<p>Interface - Coming together of two objects and how they might communicate</p>
+
+	<p>The Kernel - The heart of the the operating system. Responsible for looking after
+	"the most low-level hardware operations".</p>
+<hr>
+	<h2>Types of Software</h2>
+
+	<p>Multi-User OS - A type of OS that allows more than 1 user at the same time.</p>
+
+	<p>Distributed 	OS - Type of OS which combines power of multiple computers</p>
+
+	<p>Peripheral Devices - External to computer's main system</p>
+
+	<p>Embedded OS - One that is designed for a single device which may just have a small number
+	of jobs to perform.</p>
+
+	<p>Multi-tasking OS - Allows for multiple tasks to be running at the same time</p>
+
+	<p>Real-time OS - Designed to perform tasks within a definitive time period</p>
+	
+	<p>Closed Software - Software that is supplied pre-compiled. The source code isnt avaliable.
+	Often copyrighted</p>
+
+	<p>Translators - Program which transforms source code into machine code.</p>
+
+	<p>Assemblers - Responsible for converting low-level assembly language directly into machine code</p>
+
+	<p>Compilers and Interpreters - Responsible for converting high level languages such as python into machine code</p>
+
+	<p>Utility Software - Small programs that tend to have specific purposes.It is mainly considerted with the maintencance
+	of a computer system</p>
+
+	<p>Open Source - Any software which is supllied along with its original source code. Source codes can be altered and 
+	redistributed. E.g. Linux</p>
+<hr>
+	<h2>Memory Management</h2>
+
+	<p>Should a user wish to switch from one application to another in a separate window, each application must be stored in
+	memory simultaneoulsly. The application and managemnent of space is controlled by the operating system.</p>
+
+	<p>Segmentation - Is the logical division of address space into varying length segments whcih depend on the program
+	structure</p>
+
+	<p>Paging - Is the physical division of address space inot varying length segments which isnt dependent on the program
+	structure.</p>
+
+	<p>Virtual Memory - Memeory isnt limitless, so as more and more jobs are loaded into memeory, the 
+	operating system may swap pages of tempoarily inactive jobs out to disk, thus using secondary storage 
+	as an extension of memory to make romm for the next job which has a share of prcessor time.</p>
+<hr>
+	<h2>Scheduling</h2>
+	<p>The scheduler is the OS module responsible for making sure that processor time is used as effciently as possible</p>
+<ul>
+	<li>Round Robin - In round robin scheduling. processes are dispatched on a (FIFO) basis, with each 
+	process in turn being given a limited amount of CPU time aka time slice. If the process does not 
+	complete before its time expires, the despatcher gives the CPU to the next process.</li>
+	
+	<li>First Come First Served - Jobs are processed in order in which they arrive.</li>
+	
+	<li>Shortest Remaining Time - The process with the smallest estimated time to completion is run next.</li>
+	
+	<li>Shortest Job First - The processwith the smallest estimated running time is run next.</li>
+</ul>
+	<p>Multi-level feedback queues this algorithm is designed to:
+<ul>
+	<li>give preference to short jobs.</li>
+	<li>give preference to I/O bound processes.</li>
+	<li>separate processes into categories based on their need for the processor.<li>
+</ul>
+	<h2>Interrupts</h2>
+	<p>Interrupt - Is a signal from a software program, hardware device or internal clock to the CPU software
+	interrupts occurs when an application program terminates or requests certain services from the OS.</p>
+	
+	<p>Interrupt Service Routine - Is called to deal with the interrupt. Interrupts are assigned priorities. 
+	Examples of interrupts in descending order of priority, are given below:</p>
+<ul>
+	<li>Power-fail Interrupt</li>
+	<li>Clock Interrupt</li>
+	<li>An I/O device sends a signal requesting service or signalling end of I/O operation</li>
+</ul>
+<hr>
+	<h2>Links</h2>
+	<p>If your still unsure about the conetent covered watch a Craig n Dave video</p>
+<ul>
+	<li><a href= "https://www.youtube.com/watch?v=L67RD4Zwe4Y&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8">
+	Operating Systems</a>
+	
+	<li><a href= "https://www.youtube.com/watch?v=gIzbuiSnuUA&list=PLCiOXwirraUA9EgGVmuqzxonorZHPKNJN">
+	Application generation</a>
+</ul>
+
+

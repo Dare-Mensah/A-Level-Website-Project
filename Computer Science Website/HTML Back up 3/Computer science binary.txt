@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html>
+
+
+<head>
+	<title>ComputerSciende Binary revision</title>
+	<link rel="stylesheet" href="Components Background.css">
+</head>
+<body>
+ 
+	<h1>Binary Revision</h1>
+	</div>
+<image src="3b9c8591532640a982dfc5ffa355366a.png" heigh=150 width=150>
+<hr>
+	<div style="background-color:yellow">
+
+	<li>Normalisation</li>
+	<li>Floating Point Binary</li>
+	<li>Addition and Subtraction</li>
+	<li>Twos Complement</li>
+	<li>Sign and Magnitude</li>
+	</div>
+<hr>
+	<h2>Normalisation</h2>
+	<p>For negative binary numbers it should be represented as 10 but for positive binary numbers the representation should be 01</p>
+<hr>
+	<h3>Floating Point Binary</h3>
+	<p>The disadvatge with normal non-floating point binary is that it is only limited to integers, this is where floating point binary comes in. This allows for much more denary numbers to be represented in binary.</p>
+<hr>
+	<h4>Addition and Subtraction</h4>
+	<p>With addition binary some of the rules that need to be remembered is that:</p>
+	<ul>
+	<li>1+1=10</li>
+	<li>1+0=1</li>
+	<li>0+0=0</li>
+	<li>1+1+1=11</li>
+	</ul>
+	<p>With Subtraction in binary the most common way is converting the second number that is being subtracted form the first to a negative number through twos complement</p>
+	<h5>Sign and Magnitude</h5>
+	<p>With sign and magnitude the way to make a positive binary number to a negative number is to add one to the left most bit. However the main disadvatage of using Sign and Magnitude is that it cant be used in arithmetic such as taking away two binary numbers.</p>
+	<h6>Twos Complement</h6>
+	<p>In Twos Complement the way to conert a positive binary number to a negative one would be to swap the numbers so if its an 8 bit number such as 10111010 it would be then be 01000101 then you would have to add 1 to the right bit that now being 01000110.</p>
+</body>
+</html>
+	
+
+
+
+
+

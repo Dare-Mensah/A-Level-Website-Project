@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chapter 1 Components of a Computer</title>
+	<link rel="stylesheet" href="Components Background.css">
+</head>
+<body>
+	<h1>Componenets of a Computer</h1>
+<hr>
+	<h2>Registers</h2>
+	<p>These are all of the main register found within the processor</p>
+	<p>Registers are small storage devices loacted in the computer's main processor
+	each register has a specific task as briefly described below</p>
+<ul>
+	<li>PC- The Program Counter which stores the address of the next instruction</li>
+	<li>MAR- Memory address register stores the address of the data or instruction</li>
+	<li>ACC- Accumulator stores the result of calculations made in the ALU</li>
+	<li>CIR- Current Instruction Register which stores the actual insrtuctions being decoded and executed</li>
+</ul>
+<hr>
+	<h2>Buses</h2>
+<p> Bus - Bus is a set of parallel wires connecting two or more components of a computer consists of 8,16,32 or 64 lines</p>
+<p> Word - Fixed size group of digits, typically 16,32 or 64 bits, handled as a unit by theprocessor, different processors have different word sizes</p>
+
+<ul>
+	<li>Address Bus- Carries the address of the instruction or data that is in the MAR in the processor to the
+	memory, data only travels oin one direction</li>
+	<li>Data Bus - Carries the data between processor and memeory and, data travels in both directions</li>
+	<li>Control bus- Sends control signals between processor and componenets</li>
+</ul>
+<hr>
+	<h2>Primary Memory</h2>
+<ul>
+	<li>RAM - Random Access Memeory- is a fast type of memory used to store data and programs
+	that the computer is currently using</li>
+	<li>ROM - Read Only Memory- Memory which cant be changed by the user. ROM is non-volatile</li>
+	<li>Cache  - is a samll amount of memory part of the CPU  clsoer tot he CPU than RAM. It is used to 
+	tempoaily hold instructions and data that the CPU is likely to use</li>
+</ul>
+<hr>
+	<h2>Secondary Storage</h2>
+<ul>
+	<li>Optical Storage -Devices whcih uses markers which can read or write to an optical lazer</li>
+	<li>Magnetic Storage - Series of magnetic disks that are magnetised. The read write heads detect/ modify the 
+	magnetic properties of the platter</li>
+	<li>Solid State Storage - Stores data on silicon micro chips. They are a lot more durable and have faster access 
+	times</li>
+</ul>
+	
+<hr>
+	<h2>Fetch-Decode-Execute Cycle</h2>
+<ol> 
+<p>(Fetch Phase)</p>
+	<li>The addres of the next instruction is copied from the PC to the MAR.</li>
+	<li>The instruction held at that address is copied to the MDR. Simultaneously, the content of the PC
+	is incremented so that it holds the address of the next insrtuction.</li>
+	<li>The content of the MDR are copied to the CIR.</li>
+<p>(Decode Phase)</p>
+	<li> The instruction held in the CIR is decoded. The instruction is split into opcode and operand and the opcoder is used to determine the type of instruction and what
+	hardware to use to execute it. The operand holds either:</li>
+		<ul>
+			<li>The address of the data to be used with the operation, which is then often copied to the MDR</li>
+			<li>The actual data to be operated on, which will be copied to the MDR</li>
+			<li>The data to be operated on may be passed to the ALU</li>
+		</ul>
+<p>(Execute Phase)
+	<li>The appropriate instruction/opcode is carried out on the operand</li>
+</ol>
+<hr>
+<h2> Types of Processor</h2>
+
+<p>CISC - Complex Instruction Set computer is a computer in which a single instruction can create several low-level 
+operations or are capable of multi-step operations or addressing modes within single instructions.</p>
+<p>Advantages:</p>
+<ul>
+	<li>Supports simpler coding</li>
+	<li>More intensive tasks will do better with CISC</li>
+<p>Disadvantages:</p>
+	<li>The manufacturer would need to add more complex circutary. More complex hardware is needed</li>
+	<li>Cant supoort pipelining</li>
+</ul>
+
+<p>RISC- Reduced Instruction Set Computer is based on a form of a microprocessor designed to perorm a limited set of operations extremly quickly.</p>
+<p>Advantages:</p>
+<ul>
+	<li>The hardware is simpler</li>
+	<li>Each instruction can be carried out in a single machine cycle</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+	<li>Software is more complex</li>
+	<li>Performs complex tasks slower compared to CISC</li>
+</ul>
+
+<p>Parallel Processing - Processing of program instructions by dividing them amongst multiple processors or processor cores with the 
+objective of running the overall program in less time</p>
+
+<p> Von Neumann - Traditional computer architecture forms the basis of most digital computer systems. Single control unit manages program control and follows 
+the fecth decode execute cycle</p>
+
+<p>Harvard - Physically separate storage and singal pathways for instructions and data</p>
+
+<p>Contempary - Modern set of disciplines describes the functinality, organisation and implementation of computer systems</p>
+<hr>
+<h2>Processor Performance</h2>
+
+<p>Pipelining - Increasing effiecncy of CPU. You can fetch the next instruction while the first one is being decoded</p>
+
+<p>Factors effecting processor performance<p>
+<ul>
+	<li>Clock Speed</li>
+	<li>Number of cores or duplicate processors, linked together on a single chip</li>
+	<li>The amount and type of cahe memory</li>
+</ul>
+
+<p> Co-processor - is an extra processor used to suplement the functions of the primary processor(theCPU).</p>
+
+<p> Multi-core CPU are able to distribute workload across multiple CPU cores, thus achieving significantly higher peformance</p>
+
+<p> A GPU is a specialised electronic circuit which is very effcient at manipulating computer graphics and image processing.
+A GPU has a massively parallel architecture consisting of thousands of smaller, more effcient cores designed for handling tasks 
+simultaneously.</p>	
+<hr>
+
+<h2> Input and Output Devices</h2>
+
+<p>An input device is a hardware or peripheral device used to send data to a computer.
+An input device allows users to communicate and feed instructions and data to computers for processing, display, storage and/or transmission.</p>
+
+<p>An output device is any device used to send data from a computer to another device or user.</p>
+
+<p> Examples of Input Devices</p>
+<ul>
+	<li>Barcodes - There are four different barcode readers avaliable, each using a sightly different technology for reading
+	and decoding barcodes</li>
+	<li>Laser Scanners - Laser Scanners work in the same way pen scanners except they use a laser beam as the light source</li>
+</ul>
+<p>Examples of Output Devices</p>
+<ul>
+	<li>Laser Printers - Laser printers offer high-quality, high-speed printing. Thier function is similar to that of a photocopier, using 
+	powered ink called toner.</li>
+	<li>Organic LED - (OLED) - These are brighter, thinner and lighter than traditional LCD or LED screens. The screen is plastic rather than
+	glass so they are flexible</li>
+</ul>
+
+<h2> Links</h2>
+<p>If your still unsure about the conetent covered watch a craig n dave video</p> 
+<ul>
+	<li><a href= "https://www.youtube.com/watch?v=UdHK35N-Kuo&list=PLCiOXwirraUB7V2i0SJ4SSJFqRV_LtgzW">
+	Structure and Function of a Processor</a></li>
+
+	<li><a href= "https://www.youtube.com/watch?v=BJpMmq9gQE8&list=PLCiOXwirraUDkz5X6onu8TjY2fHXvBW_O">
+	Types of Processor</a></li>
+
+	<li><a href ="https://www.youtube.com/watch?v=BU_VngM70lM&list=PLCiOXwirraUCQZhirOWfj3ZnkxBnSpq6w">
+	Input Output and Storage</a></li>
+</ul>
